@@ -19,7 +19,7 @@ public class DemoApplication {
 	}
 
 	@RequestMapping("/inbox")
-	String sayHello() {
+	String inboxResponse() {
 		return "📨 📦 ✔️";
 	}
 }
